@@ -4,6 +4,7 @@ email: patrick@hanerino.com
 description: "Patrick Haney is not a sausage. He's a designer/developer and all-around good guy."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://notasausage.github.io" # the base hostname & protocol for your site
+permalink: "/thoughts/:title/"
 twitter_username: notasausage
 github_username:  notasausage
 

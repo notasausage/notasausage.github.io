@@ -2,22 +2,8 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="container">
+    <p class="wrapper">
+        Patrick lives in the Boston area with his wonderful wife <a href="http://jennamarino.com" title="Jenna Marino">Jenna</a> and his <strike>annoying</strike> mischievous dog <a href="http://twitter.com/milothedog" title="Milo the dog on Twitter">Milo</a>. He's been designing &amp; developing for the web since the <strong>Great Browser Wars</strong>&trade; of the 90s, when Apple was building <a href="http://shrineofapple.com/newton-messagepad-130/" title="Apple Newton MessagePad on Shrine of Apple">Newtons</a> instead of iPhones. He enjoys <a href="http://speakerrate.com/notasausage" title="Patrick's speaking profile on SpeakerRate">speaking at conferences</a>, where you can often find him wearing his <a href="http://ispatrickwearingakernsweatshirt.com" title="Is Patrick wearing a KERN sweatshirt from Veer?">KERN sweatshirt</a>.
+    </p>
+</section>

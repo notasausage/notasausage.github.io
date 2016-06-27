@@ -1,11 +1,28 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Add media query support for IE8 and under -->
+    <!-- <script src="/js/respond.src.js"></script> -->
+
+    <!-- Golden Grid System gridlet, REMOVE FOR PRODUCTION -->
+    <!-- <script src="/js/ggs.js"></script> -->
+
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Add Picturefill support for responsive images -->
+    <!-- <script src="/js/picturefill.min.js"></script> -->
+
+    <!-- Google Analytics asynchronous tracking code -->
+    <!-- <script src="/js/analytics.js"></script>
+    <script async src='//www.google-analytics.com/analytics.js'></script> -->
 </head>

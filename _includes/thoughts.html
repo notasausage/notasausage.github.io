@@ -1,0 +1,18 @@
+<section class="container" id="container-thoughts">
+    <header class="wrapper">
+        <h3>From the blog</h3>
+        <h4>Writing about design, the web, and anything else that might make you think</h4>
+    </header>
+
+    {% for post in site.posts %}
+    <article class="wrapper">
+        <h5>{{ post.title }}</h5>
+        <h6>{{ post.date | date: "%b %-d, %Y" }}</h6>
+        <p>
+            In just a few short months I'll need to complete my fundraising for the Home Base Program, which helps post-9/11 veterans &amp; their families heal from the invisible wounds of war, while I continue to train for the New York City marathon. But I need
+            your help.
+        </p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="button">Keep Reading</a>
+    </article>
+    {% endfor %}
+</section>
