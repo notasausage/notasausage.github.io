@@ -81,10 +81,6 @@ h2 {
 h1 {
     font-size: 2.625em; /* 42px */
     line-height: 1.1428571428571428em; /* 48px */
-
-    // @include media-query($on-laptop) {
-    //     font-size: 2em;
-    // }
 }
 
 /********************************************
@@ -116,6 +112,12 @@ nav #nav-home img {
     border-radius: 100px;
     height: 200px;
     width: 200px;
+
+    @include media-query($on-palm) {
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
 }
 
 nav #nav-home:hover {
@@ -143,25 +145,31 @@ img.icon-hover {
     padding-right: 2.2em;
     text-shadow: 2px 2px 1px #DDD;
 
+    h2,
+    p {
+        display: inline;
+        font-family: 'Terminal Dosis Extra Light', 'Lucida Grande', 'Trebuchet MS', Arial, sans-serif;
+        font-size: 2.25em;
+        font-weight: 200;
+        line-height: 1.3em;
+        margin: 0;
+        padding: 0;
+
+        @include media-query($on-palm) {
+            font-size: 1.5em;
+        }
+    }
+
     .bio-link {
         position: relative;
-        display: inline-block;
+        display: inline;
         // transition: all 0.25s ease-in-out;
         // -webkit-transition: all 0.25s ease-in-out;
         // -moz-transition: all 0.25s ease-in-out;
 
-        object {
-            display: inline-block;
-            height: 1em;
-            padding-bottom: .1em;
-            pointer-events: none;
-            width: auto;
-            vertical-align: bottom;
-        }
-
         svg {
             display: inline-block;
-            height: 36px;
+            height: 1em;
             padding-bottom: .1em;
             pointer-events: none;
             width: auto;
@@ -236,17 +244,6 @@ img.icon-hover {
     }
 }
 
-#bio h2,
-#bio p {
-    display: inline;
-    font-family: 'Terminal Dosis Extra Light', 'Lucida Grande', 'Trebuchet MS', Arial, sans-serif;
-    font-size: 2.25em;
-    font-weight: 200;
-    line-height: 1.3em;
-    margin: 0;
-    padding: 0;
-}
-
 #bio a {
     text-decoration: none;
 }
@@ -280,6 +277,10 @@ main p {
     font-size: 1.125em;
     line-height: 1.1em;
     margin: .5em 1.5em 1em 0;
+
+    @include media-query($on-palm) {
+        float: none;
+    }
 }
 
 #elsewhere li.last {
@@ -374,6 +375,11 @@ main p {
     transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
+
+    @include media-query($on-palm) {
+        float: none;
+        margin: 10px 6px 25px;
+    }
 }
 
 #dribbble .preview.last {
@@ -393,6 +399,11 @@ main p {
 #dribbble .preview img {
     height: 150px;
     width: 200px;
+
+    @include media-query($on-palm) {
+        height: auto;
+        width: 100%;
+    }
 }
 
 #dribbble .preview:before,
