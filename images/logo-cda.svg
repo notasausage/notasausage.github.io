@@ -1,0 +1,13 @@
+<?xml-stylesheet type="text/css" href="/css/style.css"?>
+<svg viewBox="0 0 305 204" xmlns="http://www.w3.org/2000/svg">
+    <title>The Center for Digital Arts</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-20.000000, -16.000000)" fill="#1946BA">
+            <g id="CDA-Logo" transform="translate(20.000000, 16.000000)">
+                <polygon id="Triangle" points="254.5 0 305 204 204 204"></polygon>
+                <path d="M216,1.42108547e-14 C159.666956,1.42108547e-14 114,45.6669555 114,102 C114,158.333044 159.666956,204 216,204 L216,1.687539e-14 Z" id="Right-Half-Circle" transform="translate(165.000000, 102.000000) scale(-1, 1) translate(-165.000000, -102.000000) "></path>
+                <path d="M102,129 L102,204 C45.6669555,204 0,158.333044 0,102 C0,45.6669555 45.6669555,0 102,0 L102,75 C87.0883118,75 75,87.0883118 75,102 C75,116.911688 87.0883118,129 102,129 Z" id="Left-Half-Circle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

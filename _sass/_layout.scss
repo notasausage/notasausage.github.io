@@ -142,6 +142,98 @@ img.icon-hover {
     /* Counteract the padding/background images for links */
     padding-right: 2.2em;
     text-shadow: 2px 2px 1px #DDD;
+
+    .bio-link {
+        position: relative;
+        display: inline-block;
+        // transition: all 0.25s ease-in-out;
+        // -webkit-transition: all 0.25s ease-in-out;
+        // -moz-transition: all 0.25s ease-in-out;
+
+        object {
+            display: inline-block;
+            height: 1em;
+            padding-bottom: .1em;
+            pointer-events: none;
+            width: auto;
+            vertical-align: bottom;
+        }
+
+        svg {
+            display: inline-block;
+            height: 36px;
+            padding-bottom: .1em;
+            pointer-events: none;
+            width: auto;
+            vertical-align: bottom;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #666;
+            }
+
+            // * {
+            //     transition: all 0.25s ease-in-out;
+            //     -webkit-transition: all 0.25s ease-in-out;
+            //     -moz-transition: all 0.25s ease-in-out;
+            // }
+        }
+
+        &#bio-partners:hover {
+            color: #EF7622;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #EF7622;
+            }
+        }
+
+        &#bio-hanerino:hover {
+            color: #8EBD3F;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #8EBD3F;
+            }
+        }
+
+        &#bio-cda:hover {
+            color: #1946BA;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #1946BA;
+            }
+        }
+
+        &#bio-midmodernized:hover {
+            color: #c5996e;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #c5996e;
+            }
+        }
+
+        // &:after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     left: 0;
+        // }
+    }
 }
 
 #bio h2,
@@ -157,67 +249,6 @@ img.icon-hover {
 
 #bio a {
     text-decoration: none;
-}
-
-#bio abbr {
-    border: 0;
-}
-
-#bio .bio-link {
-    padding-left: 40px;
-    position: relative;
-    transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-}
-
-#bio .bio-link:hover {
-    background-image: none;
-}
-
-#bio .bio-link img.icon-hover {
-    top: 5px;
-}
-
-#bio .bio-link:hover img.icon-hover {
-    opacity: 1;
-}
-
-#bio #bio-litmus {
-    background: url("/images/icon-litmus-lines.png") no-repeat 0 50%;
-}
-
-#bio #bio-litmus:hover {
-    background-image: none;
-    color: #F36629;
-}
-
-#bio #bio-bu {
-    background: url("/images/icon-bu-lines.png") no-repeat 0 50%;
-}
-
-#bio #bio-bu:hover {
-    background-image: none;
-    color: #C00;
-}
-
-#bio #bio-hanerino {
-    background: url("/images/icon-hanerino-lines.png") no-repeat 0 50%;
-}
-
-#bio #bio-hanerino:hover {
-    background-image: none;
-    color: #5B5445;
-}
-
-#bio #bio-refresh {
-    background: url("/images/icon-refresh-lines.png") no-repeat 0 50%;
-    padding-left: 51px;
-}
-
-#bio #bio-refresh:hover {
-    background-image: none;
-    color: #090;
 }
 
 /********************************************
