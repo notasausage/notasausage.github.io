@@ -4,18 +4,36 @@
     </header>
 
     <article class="wrapper">
-        <ul class="group">
-            <li id="link-twitter">
-                <a href="http://twitter.com/notasausage"><img src="/images/icon-twitter-fill.png" alt="" class="icon-hover">Follow Patrick <span>on twitter</span></a>
+        <ul>
+            <li id="link-twitter" class="group">
+                <a href="http://twitter.com/notasausage">
+                    {% include svg-twitter.html %}
+                    <h3>Follow Patrick <em>on twitter</em></h3>
+                </a>
             </li>
-            <li id="link-dribbble">
-                <a href="http://dribbble.com/notasausage"><img src="/images/icon-dribbble-fill.png" alt="" class="icon-hover">See his work <span>on dribbble</span></a>
+            <li id="link-dribbble" class="group">
+                <a href="http://portfolio.patrickhaney.com">
+                    {% include svg-dribbble.html %}
+                    <h3>His portfolio <em>on dribbble</em></h3>
+                </a>
             </li>
-            <li id="link-flickr">
-                <a href="http://flickr.com/photos/splat"><img src="/images/icon-flickr-fill.png" alt="" class="icon-hover">View photos <span>on flickr</span></a>
+            <li id="link-instagram" class="group">
+                <a href="http://instagram.com/notasausage">
+                    {% include svg-instagram.html %}
+                    <h3>View photos <em>on Instagram</em></h3>
+                </a>
             </li>
-            <li id="link-amazon" class="last">
-                <a href="https://amzn.com/w/36OCZ32G3WEA4"><img src="/images/icon-amazon-fill.png" alt="" class="icon-hover">His wishlist <span>on amazon</span></a>
+            <li id="link-linkedin" class="group">
+                <a href="https://www.linkedin.com/in/patrickhaney">
+                    {% include svg-linkedin.html %}
+                    <h3>Connect <em>on LinkedIn</em></h3>
+                </a>
+            </li>
+            <li id="link-amazon" class="group last">
+                <a href="https://amzn.com/w/36OCZ32G3WEA4">
+                    {% include svg-amazon.html %}
+                    <h3>His wishlist <em>on amazon</em></h3>
+                </a>
             </li>
         </ul>
     </article>

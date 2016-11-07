@@ -279,6 +279,48 @@ main {
 }
 
 #elsewhere li {
+    display: inline-block;
+    font-family: 'Terminal Dosis Book', 'Lucida Grande', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.125em;
+    line-height: 1.1em;
+    margin: .5em 1.5em 1em 0;
+
+    @include media-query($on-palm) {
+        display: block;
+    }
+}
+
+#elsewhere li.last {
+    margin-right: 0;
+}
+
+#elsewhere li a {
+    display: block;
+    text-decoration: none;
+}
+
+#elsewhere li a svg {
+    float: left;
+    height: 36px;
+    margin-right: .35em;
+    width: auto;
+}
+
+#elsewhere li a h3 {
+    float: left;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#elsewhere li a em {
+    display: block;
+    font-family: 'Quattrocento Regular', Cambria, Georgia, serif;
+    font-size: .8em;
+    font-style: normal;
+}
+
+/*
+#elsewhere li {
     float: left;
     font-family: 'Terminal Dosis Book', 'Lucida Grande', 'Trebuchet MS', Arial, sans-serif;
     font-size: 1.125em;
@@ -359,6 +401,7 @@ main {
 #elsewhere li#link-amazon a:hover img.icon-hover {
     opacity: 1;
 }
+*/
 
 /********************************************
     Dribbble Previews
