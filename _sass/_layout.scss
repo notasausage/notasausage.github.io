@@ -275,7 +275,7 @@ main {
 }
 
 #elsewhere ul {
-    margin: .5em 0 1em;
+    margin: .5em 0;
 }
 
 #elsewhere li {
@@ -519,18 +519,20 @@ main {
 ********************************************/
 
 #page-footer {
-    background: url("/images/logo-ph-footer.png") no-repeat 50% 0;
-    margin: 2.5em 0 1em;
-    min-height: 36px;
-    padding-top: 3em;
+    margin: 1em 0;
+}
+
+#page-footer svg {
+    float: left;
+    height: 36px;
+    margin-right: .75em;
+    width: auto;
 }
 
 #page-footer p {
-    background: url("/images/icon-cc-lines.png") no-repeat 0 0;
     color: #888;
     font-size: .875em;
     line-height: 1.3em;
-    padding-left: 44px;
     position: relative;
     transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -539,8 +541,4 @@ main {
 
 #page-footer p:hover {
     color: #000;
-}
-
-#page-footer p:hover img.icon-hover {
-    opacity: 1;
 }
