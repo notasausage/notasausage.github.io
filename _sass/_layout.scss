@@ -226,6 +226,17 @@ footer.container {
             }
         }
 
+        &#bio-naz:hover {
+            color: #735A86;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #735A86;
+            }
+        }
+
         &#bio-midmodernized:hover {
             color: #c5996e;
 
