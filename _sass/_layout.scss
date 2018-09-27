@@ -193,6 +193,13 @@ footer.container {
             // }
         }
 
+        &#bio-rit {
+            svg {
+                height: .75em;
+                padding-bottom: .21em;
+            }
+        }
+
         &#bio-partners:hover {
             color: #EF7622;
 
@@ -223,6 +230,17 @@ footer.container {
             rect,
             circle {
                 fill: #1946BA;
+            }
+        }
+
+        &#bio-rit:hover {
+            color: #F36E21;
+
+            path,
+            polygon,
+            rect,
+            circle {
+                fill: #F36E21;
             }
         }
 
