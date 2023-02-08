@@ -1,7 +1,7 @@
 # Site settings
 title: "Patrick Haney, not a sausage"
 email: patrick@hanerino.com
-description: "Patrick Haney is not a sausage. He's a UX Designer & Front-End Developer at Hanerino, Web Director for AIGA Upstate New York, and lover of Buffalo wings."
+description: "Patrick Haney is not a sausage. He's the Head of Innovation & Technology at AGNT, an investor at Adventure Fund, and an NFT aficionado"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://notasausage.github.io" # the base hostname & protocol for your site
 permalink: "/thoughts/:title/"
