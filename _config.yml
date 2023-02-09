@@ -1,9 +1,9 @@
 # Site settings
 title: "Patrick Haney, not a sausage"
 email: patrick@hanerino.com
-description: "Patrick Haney is not a sausage. He's the Head of Innovation & Technology at AGNT, an investor at Adventure Fund, and an NFT aficionado"
+description: "Head of Innovation & Technology at AGNT, investor at Adventure Fund, NFT aficionado."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://notasausage.github.io" # the base hostname & protocol for your site
+url: "https://patrickhaney.com" # the base hostname & protocol for your site
 permalink: "/thoughts/:title/"
 twitter_username: notasausage
 github_username:  notasausage
