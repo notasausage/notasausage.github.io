@@ -20,6 +20,10 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  h1:hover {
+    cursor: url(../images/emoji-rocket.png), help;
+  }
   
   h2 {
     margin-top: 1rem;
