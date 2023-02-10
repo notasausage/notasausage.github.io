@@ -11,7 +11,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 0rem;
-    background-image: linear-gradient(121deg, #ff7300, #ff00d4);
+    background: linear-gradient(120deg,#ff7300 0%,#ff00d4 50%, #ff7300 100%) var(--_p,0%)/200% no-repeat;
     font-family: Bison, Impact, sans-serif;
     font-size: 19vw;
     line-height: 0.8;
@@ -19,10 +19,12 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: .8s;
   }
 
   h1:hover {
-    cursor: url(../images/emoji-rocket.png), help;
+    --_p: 100%;
+    cursor: url(../images/emoji-rocket.png), auto;
   }
   
   h2 {
@@ -56,7 +58,7 @@ body {
 
   a.hero-footnote {
     color: inherit;
-    cursor: help;
+    cursor: url(../images/emoji-question.png), help;
     text-decoration: none;
   }
   
