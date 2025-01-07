@@ -307,7 +307,18 @@ body {
   .list-item-button:hover {
     background-color: hsla(0, 0%, 100%, 0.2);
   }
+
+  .list-item-button.button-figma {
+    padding-left: 52px;
+    background-image: url('../images/icon-figma.svg');
+    background-position: 19px 50%;
+    background-repeat: no-repeat;
+  }
   
+  .list-item-button.button-figma:hover {
+    background-color: hsla(0, 0%, 100%, 0.2);
+  }
+
   .list-item-button.button-dribbble {
     padding-left: 52px;
     background-image: url('../images/icon-dribbble.svg');
