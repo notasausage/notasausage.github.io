@@ -1,7 +1,7 @@
-# GitHub Page for notasausage #
+# Patrick Haney is not a sausage #
 
-The goal of this repository is for Patrick Haney to brush up on his [GitHub](http://github.com/ "GitHub") skills, create an attractive resume/portfolio site, and to learn how to use [Jekyll](http://jekyllrb.com/ "Jekyll").
+He's a Product Designer using GitHub Pages and [Jekyll](http://jekyllrb.com/ "Jekyll") to run a custom-designed website at [notasausage.xyz](https://notasausage.xyz).
 
-## To Run Locally ##
+## Want to run this site locally? ##
 
 Run `bundle exec jekyll serve` in the project folder.
